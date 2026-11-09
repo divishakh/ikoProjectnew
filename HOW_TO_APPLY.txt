@@ -1,0 +1,16 @@
+Copy these into prakriti_project, keeping the same relative paths (this pack includes the earlier model-integration patch):
+  backend/app/data/ayurgenomics.json            (NEW - the sourced research summaries)
+  backend/app/services/ayurgenomics.py          (NEW)
+  backend/app/routes/ayurgenomics.py            (NEW)
+  backend/app/main.py                           (replace - registers the new route)
+  backend/app/services/inference.py             (replace - from the earlier patch)
+  backend/app/routes/analysis.py                (replace - from the earlier patch)
+  frontend-new/src/components/AyurgenomicsCard.tsx   (NEW)
+  frontend-new/src/api.ts                       (replace)
+  frontend-new/src/pages/Analyze.tsx            (replace)
+Then:
+  python check_ayurgenomics.py                  (should list Vata, Pitta, Kapha as OK)
+  uvicorn backend.app.main:app --reload         (terminal 1)
+  open http://127.0.0.1:8000/api/ayurgenomics/Vata   (should return JSON)
+  cd frontend-new ; npm run dev                 (terminal 2) -> upload a recording on the Analyze page
+The research card appears under the Prakriti estimate. Edit the wording only in ayurgenomics.json.

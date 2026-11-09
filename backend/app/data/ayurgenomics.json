@@ -1,0 +1,605 @@
+{
+ "version": "1.0",
+ "sources": {
+  "S1": {
+   "short": "Sethi, Prasher & Mukerji, 2011",
+   "citation": "Sethi TP, Prasher B, Mukerji M. Ayurgenomics: a new way of threading molecular variability for stratified medicine. ACS Chem Biol 2011;6(9):875-880. doi:10.1021/cb2003016"
+  },
+  "S2": {
+   "short": "Huang et al., 2022",
+   "citation": "Huang Z, Chavda VP, Bezbaruah R, Uversky VN, P. S, Patel AB, Chen Z-S. An Ayurgenomics approach: Prakriti-based drug discovery and development for personalized care. Front Pharmacol 2022;13:866827. doi:10.3389/fphar.2022.866827"
+  },
+  "S3": {
+   "short": "Wallace, 2020",
+   "citation": "Wallace RK. Ayurgenomics and modern medicine. Medicina 2020;56(12):661. doi:10.3390/medicina56120661"
+  },
+  "S4": {
+   "short": "Juyal et al., 2012",
+   "citation": "Juyal RC, Negi S, Wakhode P, Bhat S, Bhat B, Thelma BK. Potential of ayurgenomics approach in complex trait research: leads from a pilot study on rheumatoid arthritis. PLoS ONE 2012;7(9):e45752. doi:10.1371/journal.pone.0045752"
+  },
+  "S5": {
+   "short": "Kumar et al., 2011",
+   "citation": "Kumar A, Dubey SD, Prakas S, Singh P. Principle of Dravyaguna (Ayurvedic pharmacology). Biomed Pharmacol J 2011;4(1):147-152."
+  }
+ },
+ "caveats": [
+  "This page summarises published research findings. They are group averages from specific study cohorts, not predictions about any one person.",
+  "This website does not test genes, blood or any biomarker. The genetic and biochemical items are literature context only.",
+  "The studies assigned Prakriti with validated questionnaires and/or Ayurvedic physicians. The Prakriti estimate on this website comes from an experimental pulse model that has not been shown to be better than chance, so use the Prakriti confirmed by a practitioner or questionnaire.",
+  "Most findings come from small, exploratory studies, often in healthy men or in one disease cohort, and need replication. The authors themselves say so (for example, Juyal et al. call their study exploratory with limited power).",
+  "Reviews disagree in places (see the HDL note under Kapha). Where they do, the primary description is listed first and the discrepancy is flagged.",
+  "Not medical advice. Do not change treatment, diet or medication because of this page; consult a qualified doctor or Ayurvedic practitioner."
+ ],
+ "concepts": [
+  {
+   "title": "What Prakriti is",
+   "kind": "classical",
+   "sources": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "text": "Prakriti is an individual's basic constitution, described as the relative proportion of Vata, Pitta and Kapha. It is said to be fixed at birth, set by genetics and by the environment during development (for example maternal diet and lifestyle), and to stay unchanged through life."
+  },
+  {
+   "title": "Seven types, three extremes",
+   "kind": "classical",
+   "sources": [
+    "S1",
+    "S3"
+   ],
+   "text": "Ancient texts describe seven types: Vata, Pitta, Kapha, Vata-Pitta, Pitta-Kapha, Vata-Kapha and Vata-Pitta-Kapha. The three single-dosha types are treated as the extremes with the most recognisable features, and most of the molecular studies compared these three."
+  },
+  {
+   "title": "Prakriti versus Vikriti",
+   "kind": "classical",
+   "sources": [
+    "S2"
+   ],
+   "text": "Prakriti is the dosha balance at conception; Vikriti is the balance now, which shows the current imbalance or illness. A recording on a given day reflects both."
+  },
+  {
+   "title": "How Prakriti was assessed in the studies",
+   "kind": "study",
+   "sources": [
+    "S1",
+    "S4"
+   ],
+   "text": "A questionnaire covering physical, physiological and mental traits turned the practitioner's subjective assessment into a score. In the rheumatoid arthritis study a 47-question CCRAS questionnaire was used, and an excess of at least five Prakriti features decided the predominant type."
+  },
+  {
+   "title": "What the field proposes next",
+   "kind": "hypothesis",
+   "sources": [
+    "S1"
+   ],
+   "text": "The authors propose measuring several physiological 'axes' in the same person: cardiovascular function and its regulation (including heart rate and autonomic balance), systemic inflammation, apoptosis, the gut microbiota, and body measurements. Their aim is objective, measurable classifiers of Vata, Pitta and Kapha."
+  },
+  {
+   "title": "Where pulse fits",
+   "kind": "note",
+   "sources": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "text": "None of these five papers gives pulse-waveform criteria for any Prakriti. The closest links are heart-rate and autonomic findings (Kapha: higher parasympathetic and lower sympathetic activity in one study) and the proposal to use heart-rate dynamics as an objective axis."
+  }
+ ],
+ "rasa": {
+  "Madhura (sweet)": {
+   "increases": [
+    "Kapha"
+   ],
+   "pacifies": [
+    "Vata",
+    "Pitta"
+   ]
+  },
+  "Amla (sour)": {
+   "increases": [
+    "Kapha",
+    "Pitta"
+   ],
+   "pacifies": [
+    "Vata"
+   ]
+  },
+  "Lavana (salty)": {
+   "increases": [
+    "Kapha",
+    "Pitta"
+   ],
+   "pacifies": [
+    "Vata"
+   ]
+  },
+  "Katu (pungent)": {
+   "increases": [
+    "Vata",
+    "Pitta"
+   ],
+   "pacifies": [
+    "Kapha"
+   ]
+  },
+  "Tikta (bitter)": {
+   "increases": [
+    "Vata"
+   ],
+   "pacifies": [
+    "Kapha",
+    "Pitta"
+   ]
+  },
+  "Kashaya (astringent)": {
+   "increases": [
+    "Vata"
+   ],
+   "pacifies": [
+    "Kapha",
+    "Pitta"
+   ]
+  }
+ },
+ "rasa_note": "Classical Dravyaguna principle (Kumar et al., 2011): each taste (rasa) is described as increasing or pacifying particular doshas. Related rules in the paper: sweet taste usually has sweet vipaka (final effect after digestion) and cooling potency; sour, salty and pungent usually have heating potency; bitter and astringent have pungent vipaka and cooling potency. Sweet vipaka increases Kapha, sour vipaka increases Pitta and pungent vipaka increases Vata. Ayurvedic practice chooses diet and drugs by the disease, the constitution and the person's current state of health, so this table alone is not a prescription.",
+ "prakriti": {
+  "Vata": {
+   "summary": "Vata is the dosha of movement and transport. Studies report differences in cell-cycle and transport gene expression, and disease findings for Parkinson's disease and rheumatoid arthritis.",
+   "sections": [
+    {
+     "id": "classical",
+     "title": "Ayurvedic profile",
+     "items": [
+      {
+       "text": "Elements: Akasha (space/ether) and Vayu (air).",
+       "kind": "classical",
+       "sources": [
+        "S2",
+        "S3"
+       ]
+      },
+      {
+       "text": "Governs movement and transport, including the transport of molecules and nerve impulses; contributes to body shape, cell division, signalling and cognition, and regulates the activity of Pitta and Kapha.",
+       "kind": "classical",
+       "sources": [
+        "S1",
+        "S2",
+        "S3"
+       ]
+      },
+      {
+       "text": "In Dravyaguna the dosha's function is movement (Vikshepa).",
+       "kind": "classical",
+       "sources": [
+        "S5"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "blood",
+     "title": "Blood and biochemistry",
+     "items": [
+      {
+       "text": "Serum prolactin was reported higher in Vata types than in Pitta and Kapha types in the 2008 healthy-volunteer study.",
+       "kind": "study",
+       "sources": [
+        "S3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "expression",
+     "title": "Gene expression",
+     "items": [
+      {
+       "text": "Differentially expressed genes were enriched for cell cycle, DNA repair, recombination and transport functions, in both males and females.",
+       "kind": "study",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "text": "In Vata males: over-expression of genes for cell-cycle control, including regulation of cyclin-dependent protein kinase activity and of enzyme activity.",
+       "kind": "study",
+       "sources": [
+        "S3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "genetics",
+     "title": "Genetic markers",
+     "items": [
+      {
+       "text": "HLA-DRB1*02 was absent in the Vata type in a 76-subject study of HLA allele frequencies by Prakriti.",
+       "kind": "study",
+       "sources": [
+        "S2",
+        "S3"
+       ],
+       "note": "Small sample; allele-frequency differences between types, not a diagnostic test."
+      }
+     ]
+    },
+    {
+     "id": "physiology",
+     "title": "Physiology",
+     "items": [
+      {
+       "text": "Among irritable bowel syndrome patients, most Vata-type patients had the constipation form (IBS-C).",
+       "kind": "study",
+       "sources": [
+        "S3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "disease",
+     "title": "Disease associations",
+     "items": [
+      {
+       "text": "Classical Vata-type disorders include neurological, developmental, speech and movement disorders, dementia and arrhythmias.",
+       "kind": "classical",
+       "sources": [
+        "S2"
+       ]
+      },
+      {
+       "text": "Parkinson's disease incidence was highest in patients with Vata Prakriti (2013 study).",
+       "kind": "study",
+       "sources": [
+        "S3"
+       ]
+      },
+      {
+       "text": "Rheumatoid arthritis pilot study, Vata subgroup (48 cases, 39 controls): the IL1B C-C-C haplotype was associated with RA (p = 0.0005, OR 3.09), with a trend for CD40 rs4810485 (p = 0.04, OR 2.27, not passing FDR correction). RA severity measures (RA factor, anti-CCP, ESR, pain, stiffness, swelling) were highest and haemoglobin lowest in the Vata group.",
+       "kind": "study",
+       "sources": [
+        "S4"
+       ],
+       "note": "The authors call this exploratory with limited power; the Vata subgroup was the smallest."
+      }
+     ]
+    }
+   ]
+  },
+  "Pitta": {
+   "summary": "Pitta is the dosha of digestion, metabolism and heat. The studies report higher haemoglobin and red-cell values, more innate-immune and pro-apoptotic gene expression, and EGLN1 (oxygen sensing) differences from Kapha.",
+   "sections": [
+    {
+     "id": "classical",
+     "title": "Ayurvedic profile",
+     "items": [
+      {
+       "text": "Elements: Tejas/Agni (fire) and Ap (water).",
+       "kind": "classical",
+       "sources": [
+        "S2",
+        "S3"
+       ]
+      },
+      {
+       "text": "Governs digestion and metabolism, energy balance, thermoregulation, vision, pigmentation and host surveillance.",
+       "kind": "classical",
+       "sources": [
+        "S1",
+        "S2",
+        "S3"
+       ]
+      },
+      {
+       "text": "In Dravyaguna the dosha's function is assimilation (Adana).",
+       "kind": "classical",
+       "sources": [
+        "S5"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "blood",
+     "title": "Blood and biochemistry",
+     "items": [
+      {
+       "text": "Pitta males had higher haemoglobin, packed cell volume and red blood cell count, while staying within the normal laboratory range.",
+       "kind": "study",
+       "sources": [
+        "S1",
+        "S3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "expression",
+     "title": "Gene expression",
+     "items": [
+      {
+       "text": "Higher expression of innate-immunity genes, and over-expression of hub genes involved in pro-apoptotic functions and positive regulation of the innate immune response.",
+       "kind": "study",
+       "sources": [
+        "S1",
+        "S2",
+        "S3"
+       ]
+      },
+      {
+       "text": "Olfactory-transduction genes were significantly lower in both male and female Pitta individuals.",
+       "kind": "study",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "text": "Haemoglobin gene expression was higher in Pitta, matching the higher haemoglobin levels.",
+       "kind": "study",
+       "sources": [
+        "S2"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "genetics",
+     "title": "Genetic markers",
+     "items": [
+      {
+       "text": "EGLN1 (an oxygen-sensing gene): the rs479200 TT genotype, more frequent in Kapha, was much rarer in Pitta and almost absent in high-altitude natives. Pitta lowlanders over-represented alleles that are common in high-altitude populations.",
+       "kind": "study",
+       "sources": [
+        "S1",
+        "S2",
+        "S3"
+       ]
+      },
+      {
+       "text": "PGM1 rs11208257 (energy and carbohydrate metabolism) was more homogeneous in Pitta than in Vata and Kapha, in a study where 52 SNPs differed among the three types.",
+       "kind": "study",
+       "sources": [
+        "S2",
+        "S3"
+       ]
+      },
+      {
+       "text": "CYP2C19 (a drug-metabolising gene family) was reported up-regulated in Pitta and down-regulated in Kapha.",
+       "kind": "study",
+       "sources": [
+        "S2",
+        "S3"
+       ],
+       "note": "A research link to drug-metabolism variability; it is not a basis for choosing or changing any medicine."
+      }
+     ]
+    },
+    {
+     "id": "physiology",
+     "title": "Physiology",
+     "items": [
+      {
+       "text": "Among irritable bowel syndrome patients, Pitta-dominant patients mostly had the diarrhoea form (IBS-D), and quality of life was better in Pitta-type patients.",
+       "kind": "study",
+       "sources": [
+        "S3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "disease",
+     "title": "Disease associations",
+     "items": [
+      {
+       "text": "Classical Pitta-type disorders include ulcers, skin diseases and bleeding disorders.",
+       "kind": "classical",
+       "sources": [
+        "S2"
+       ]
+      },
+      {
+       "text": "Rheumatoid arthritis pilot study, Pitta subgroup (186 cases, 207 controls): oxidative-stress genes were associated, SOD3 rs699473 (p = 0.004, OR 1.83), SOD3 rs2536512 (p = 0.005, OR 1.88) and PON1 rs662 (p = 0.04, OR 1.53), with no significant association for the common inflammatory genes.",
+       "kind": "study",
+       "sources": [
+        "S4"
+       ],
+       "note": "Exploratory study; needs replication."
+      }
+     ]
+    }
+   ]
+  },
+  "Kapha": {
+   "summary": "Kapha is the dosha of structure, stability and growth. The studies report a lipid and cardiovascular-risk profile, an anabolic gene-expression signature, EGLN1/high-altitude findings, and higher BMI and parasympathetic activity.",
+   "sections": [
+    {
+     "id": "classical",
+     "title": "Ayurvedic profile",
+     "items": [
+      {
+       "text": "Elements: Ap (water) and Prithvi (earth).",
+       "kind": "classical",
+       "sources": [
+        "S2",
+        "S3"
+       ]
+      },
+      {
+       "text": "Governs structure and cohesion: storage, stability, growth and maintenance.",
+       "kind": "classical",
+       "sources": [
+        "S1",
+        "S2",
+        "S3"
+       ]
+      },
+      {
+       "text": "In Dravyaguna the dosha's function is growth (Visarga).",
+       "kind": "classical",
+       "sources": [
+        "S5"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "blood",
+     "title": "Blood and biochemistry",
+     "items": [
+      {
+       "text": "Kapha males had lower prothrombin time and lower HDL, and higher triglycerides, total cholesterol, VLDL, LDL, LDL/HDL ratio and serum uric acid, all within the normal laboratory range. Many of these are independent predictors of cardiovascular mortality.",
+       "kind": "study",
+       "sources": [
+        "S1",
+        "S3"
+       ],
+       "note": "Discrepancy: the Huang 2022 review lists HDL as higher in Kapha, whereas the Sethi 2011 paper and Wallace 2020 report lower HDL. This page follows the latter two."
+      }
+     ]
+    },
+    {
+     "id": "expression",
+     "title": "Gene expression",
+     "items": [
+      {
+       "text": "Up-regulation of genes for cellular biosynthesis, including ATP and cofactor biosynthesis and the purine salvage pathway, which the authors relate to the classical description of Kapha as promoting the anabolic state.",
+       "kind": "study",
+       "sources": [
+        "S1",
+        "S2"
+       ]
+      },
+      {
+       "text": "Higher expression of adaptive-immunity genes (Pitta showed innate-immunity genes instead).",
+       "kind": "study",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "text": "Genes involved in fibrinolysis were down-regulated in Kapha males.",
+       "kind": "study",
+       "sources": [
+        "S2",
+        "S3"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "genetics",
+     "title": "Genetic markers",
+     "items": [
+      {
+       "text": "EGLN1 rs479200 TT genotype was more frequent in Kapha and linked to higher EGLN1 expression. The Kapha-linked genotype was over-represented among sojourners (lowlanders visiting high altitude) who developed high-altitude pulmonary edema (HAPE).",
+       "kind": "study",
+       "sources": [
+        "S1",
+        "S2",
+        "S3"
+       ]
+      },
+      {
+       "text": "The authors speculate that Kapha individuals may be more likely to adapt poorly to high altitude.",
+       "kind": "hypothesis",
+       "sources": [
+        "S1"
+       ]
+      },
+      {
+       "text": "A combination of the derived EGLN1 allele (HAPE-associated) and the ancestral VWF allele (thrombosis-associated) was significantly more frequent in Kapha than in Pitta.",
+       "kind": "study",
+       "sources": [
+        "S3"
+       ]
+      },
+      {
+       "text": "HLA-DRB1*13 was absent in Kapha, and HLA-DRB1*10 was more frequent in Kapha than in Pitta and Vata (76 subjects).",
+       "kind": "study",
+       "sources": [
+        "S2",
+        "S3"
+       ],
+       "note": "Small sample."
+      },
+      {
+       "text": "CYP2C19 was reported down-regulated in Kapha.",
+       "kind": "study",
+       "sources": [
+        "S2",
+        "S3"
+       ],
+       "note": "A research link to drug-metabolism variability; it is not a basis for choosing or changing any medicine."
+      }
+     ]
+    },
+    {
+     "id": "physiology",
+     "title": "Physiology",
+     "items": [
+      {
+       "text": "Higher body mass index than Vata Prakriti (2014 study).",
+       "kind": "study",
+       "sources": [
+        "S3"
+       ]
+      },
+      {
+       "text": "Higher parasympathetic and lower sympathetic activity in cardiovascular reactivity than Pitta or Vata (2015 study).",
+       "kind": "study",
+       "sources": [
+        "S3"
+       ]
+      },
+      {
+       "text": "Higher natural-killer cells (CD56) and activated B cells (CD25) (2012 study).",
+       "kind": "study",
+       "sources": [
+        "S2",
+        "S3"
+       ]
+      },
+      {
+       "text": "An older 2003 study reported higher digoxin and glycoconjugate levels and higher free-radical production with reduced scavenging.",
+       "kind": "study",
+       "sources": [
+        "S3"
+       ],
+       "note": "Single older study; interpret cautiously."
+      }
+     ]
+    },
+    {
+     "id": "disease",
+     "title": "Disease associations",
+     "items": [
+      {
+       "text": "Classical Kapha-type disorders include diabetes, obesity and atherosclerotic conditions.",
+       "kind": "classical",
+       "sources": [
+        "S2"
+       ]
+      },
+      {
+       "text": "In a 2012 study, Kapha and Vata-Kapha Prakriti were associated with higher inflammatory markers and cardiovascular risk factors; Vata-Kapha also had higher triglycerides, VLDL and LDL, lower HDL, and higher risk of diabetes, hypertension and dyslipidaemia.",
+       "kind": "study",
+       "sources": [
+        "S3"
+       ]
+      },
+      {
+       "text": "Rheumatoid arthritis pilot study, Kapha subgroup (78 cases, 99 controls): no significant association survived correction; only a trend for SOD3 rs2536512.",
+       "kind": "study",
+       "sources": [
+        "S4"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

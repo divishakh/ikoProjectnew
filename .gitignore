@@ -1,0 +1,40 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+frontend-new/node_modules/
+frontend-new/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Databases and private storage
+*.db
+*.sqlite
+*.sqlite3
+storage/
+
+# Datasets
+data/nadi/
+*.zip
+patch_tmp/
+
+# Trained models
+
+
+# OS files
+.DS_Store
+Thumbs.db

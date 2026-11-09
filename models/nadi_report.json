@@ -1,0 +1,71 @@
+{
+  "name": "NP703 Random Forest (demonstration)",
+  "dataset": "NP703 dataset.csv",
+  "rows_in_file": 702,
+  "duplicate_rows_removed": 248,
+  "unique_recordings": 454,
+  "classes": [
+    "Kapha",
+    "Pitta",
+    "Vata"
+  ],
+  "n_features": 57,
+  "cv_accuracy_mean": 0.364,
+  "cv_accuracy_std": 0.034,
+  "baseline_accuracy": 0.337,
+  "permutation_p_value": 0.18,
+  "better_than_chance": false,
+  "validated": false,
+  "note": "Window length 40 samples, sampling rate unknown. Not clinically validated.",
+  "confusion_matrix": [
+    [
+      49,
+      46,
+      55
+    ],
+    [
+      43,
+      66,
+      44
+    ],
+    [
+      59,
+      45,
+      47
+    ]
+  ],
+  "top_features": [
+    [
+      "Kapha_fft5",
+      0.0305
+    ],
+    [
+      "Vata_fft9",
+      0.027
+    ],
+    [
+      "Pitta_fft8",
+      0.026
+    ],
+    [
+      "Kapha_fft4",
+      0.0224
+    ],
+    [
+      "Pitta_fft7",
+      0.0223
+    ],
+    [
+      "Pitta_fft1",
+      0.0218
+    ],
+    [
+      "Pitta_kurtosis",
+      0.0212
+    ],
+    [
+      "Kapha_fft6",
+      0.0208
+    ]
+  ]
+}
